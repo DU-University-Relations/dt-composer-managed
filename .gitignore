@@ -87,6 +87,10 @@
 # already ignored. We must also ignore these generated files.
 /web/**/.gitignore
 
+# See https://docs.pantheon.io/guides/integrated-composer/ic-upstreams
+# Excluded with echo /composer.lock >> .git/info/exclude
+# /composer.lock - Do not exclude here.
+
 
 # Other common rules
 # ------------------
