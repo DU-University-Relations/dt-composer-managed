@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ced5887945f95aa6adf42b5a8bfac9f6",
+    "content-hash": "7dd9deed31afbdbe12cdb2faddf448dc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2716,17 +2716,17 @@
         },
         {
             "name": "drupal/layout_paragraphs",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_paragraphs.git",
-                "reference": "3.0.1"
+                "reference": "3.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_paragraphs-3.0.1.zip",
-                "reference": "3.0.1",
-                "shasum": "0959f76b95b35afa6658a8f21cacdc75d7030d4c"
+                "url": "https://ftp.drupal.org/files/projects/layout_paragraphs-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "0c44ed667fbf7803b19e9d81a62fcdad9334a53b"
             },
             "require": {
                 "drupal/core": "^10 || ~11",
@@ -2742,8 +2742,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.1",
-                    "datestamp": "1792417947",
+                    "version": "3.0.2",
+                    "datestamp": "1794257950",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2837,17 +2837,17 @@
         },
         {
             "name": "drupal/linkit",
-            "version": "7.0.17",
+            "version": "7.0.18",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/linkit.git",
-                "reference": "7.0.17"
+                "reference": "7.0.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkit-7.0.17.zip",
-                "reference": "7.0.17",
-                "shasum": "114d863a2232e76abd37e7d789fd34afc0e253b2"
+                "url": "https://ftp.drupal.org/files/projects/linkit-7.0.18.zip",
+                "reference": "7.0.18",
+                "shasum": "f5bb814b0ed8390f64c603e99b01dd00c3837be2"
             },
             "require": {
                 "drupal/core": "^10.2 || ^11 || ^12"
@@ -2855,8 +2855,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "7.0.17",
-                    "datestamp": "1789675704",
+                    "version": "7.0.18",
+                    "datestamp": "1794259888",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8494,16 +8494,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp",
-            "version": "v2.5.3.1",
+            "version": "2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp.git",
-                "reference": "e049be1819327c76403fc0d6fa648d6dcfbc8516"
+                "reference": "3c74e4c93776ec1e25b8db1039053ac999f8c561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/zipball/e049be1819327c76403fc0d6fa648d6dcfbc8516",
-                "reference": "e049be1819327c76403fc0d6fa648d6dcfbc8516",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp/zipball/3c74e4c93776ec1e25b8db1039053ac999f8c561",
+                "reference": "3c74e4c93776ec1e25b8db1039053ac999f8c561",
                 "shasum": ""
             },
             "require": {
@@ -8567,7 +8567,7 @@
                 "ext-pdo_sqlite": "*",
                 "mikey179/vfsstream": "~1.6",
                 "predis/predis": "~3.3",
-                "simplesamlphp/simplesamlphp-test-framework": "~1.11.6 || dev-master"
+                "simplesamlphp/simplesamlphp-test-framework": "~1.11.7 || dev-master"
             },
             "suggest": {
                 "ext-curl": "Needed in order to check for updates automatically",
@@ -8635,7 +8635,7 @@
                 "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
                 "source": "https://github.com/simplesamlphp/simplesamlphp"
             },
-            "time": "2026-08-10T11:59:52+00:00"
+            "time": "2026-11-09T21:26:11+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-assets-base",
@@ -14762,16 +14762,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "517b460c44f55f8b40aa9dfaf4e43e6593ecf1b5"
+                "reference": "174a0d78a70e79f4a139e78d9b904b56f535cc65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/517b460c44f55f8b40aa9dfaf4e43e6593ecf1b5",
-                "reference": "517b460c44f55f8b40aa9dfaf4e43e6593ecf1b5",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/174a0d78a70e79f4a139e78d9b904b56f535cc65",
+                "reference": "174a0d78a70e79f4a139e78d9b904b56f535cc65",
                 "shasum": ""
             },
             "require": {
@@ -14787,6 +14787,7 @@
                 "composer/installers": "^1.9 || ^2",
                 "drupal/core-recommended": "^11",
                 "drush/drush": "^11 || ^12 || ^13",
+                "nette/neon": "^3.0",
                 "phpstan/extension-installer": "^1.4.3",
                 "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^9 || ^10 || ^11",
@@ -14843,7 +14844,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/2.3.0"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/2.4.0"
             },
             "funding": [
                 {
@@ -14859,7 +14860,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-05T18:22:32+00:00"
+            "time": "2026-11-09T21:03:37+00:00"
         },
         {
             "name": "micheh/phpcs-gitlab",
