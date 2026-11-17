@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Name component.
+ *
+ * Available props:
+ * - variant: [string] Visual variant: default.
+ *
+ * Available slots:
+ * - title: The component heading.
+ * - media: Rendered media.
+ */
+#}
+{% set attributes = create_attribute(attributes) %}
+
+{% set classes = [
+  'c-NAME',
+  'c-NAME--' ~ variant|default('default'),
+] %}
+
+<article {{ attributes.addClass(classes) }}>
+  {% if media %}
+    <div class="c-NAME__media">
+      {% block media %}{{ media }}{% endblock %}
+    </div>
+  {% endif %}
+
+  {% if title %}
+    <h3 class="c-NAME__title">{% block title %}{{ title }}{% endblock %}</h3>
+  {% endif %}
+</article>

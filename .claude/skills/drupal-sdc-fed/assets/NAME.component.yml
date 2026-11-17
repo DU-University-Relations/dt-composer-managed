@@ -1,0 +1,20 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Name
+status: experimental
+description: One sentence describing what the component presents.
+props:
+  type: object
+  properties:
+    variant:
+      type: string
+      title: Variant
+      description: Visual variant. Becomes a modifier class.
+      enum:
+        - default
+slots:
+  title:
+    title: Title
+    description: The component heading.
+  media:
+    title: Media
+    description: Rendered media.
